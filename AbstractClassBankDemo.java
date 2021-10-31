@@ -3,17 +3,17 @@ abstract class Bank{
 }
 class BankA extends Bank{
 	void getbalance() {
-		System.out.println("$100 is Deposited in Bank A");
+		System.out.println("$1000 is Deposited in Bank A");
 	}
 }
 class BankB extends Bank{
 	void getbalance() {
-		System.out.println("$150 is Deposited in Bank B");
+		System.out.println("$1500 is Deposited in Bank B");
 	}
 }
 class BankC extends Bank{
 	void getbalance() {	
-		System.out.println("$200 is Deposited in Bank C");
+		System.out.println("$2700 is Deposited in Bank C");
 	}
 }
 public class AbstractClassBankDemo {
